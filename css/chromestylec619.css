@@ -1,0 +1,101 @@
+.chromestyle{
+/*width: 99%;
+font-weight: bold;*/
+float : right;
+width : 370px;
+}
+
+.chromestyle:after{ /*Add margin between menu and rest of content in Firefox*/
+content: "."; 
+display: block; 
+height: 0; 
+clear: both; 
+visibility: hidden;
+}
+
+.chromestyle ul{
+
+width: 100%;
+/*: url(chromebg.gif) center center repeat-x; /*THEME CHANGE HERE*/
+padding: 4px 0;
+margin: 0;
+padding : 0;
+text-align: right; /*set value to "left", "center", or "right"*/
+}
+
+.chromestyle ul li{
+display: inline;
+}
+
+.chromestyle ul li a{
+color: #494949;
+padding: 4px 7px;
+margin: 0;
+text-decoration: none;
+}
+
+.chromestyle ul li a:hover, .chromestyle ul li a.selected{ /*script dynamically adds a class of "selected" to the current active menu item*/
+/*background: url(chromebg-over.gif) center center repeat-x; /*THEME CHANGE HERE*/
+}
+
+/* ######### Style for Drop Down Menu ######### */
+
+.dropmenudiv{
+position:absolute;
+top: 0;
+border-bottom-width: 0;
+font:normal 12px Verdana;
+line-height:18px;
+z-index:100;
+background-color: white;
+width: 180px;
+visibility: hidden;
+}
+
+div.editions{ width : 74px; }
+
+
+.dropmenudiv a{
+width: auto;
+display: block;
+text-decoration: none;
+font-weight: bold;
+color: black;
+}
+
+* html .dropmenudiv a{ /*IE only hack*/
+width: 100%;
+}
+
+.dropmenudiv a:hover{ /*THEME CHANGE HERE*/
+background-color: red ;
+}
+
+#chromemenu
+{
+height:38px;
+width:400px;
+}
+
+#chromemenu ul
+{
+float:left;
+}
+
+
+#chromemenu li
+{
+line-height:12px;
+}
+
+#chromemenu li a
+{
+display:inline-block;
+height:38px;
+overflow:hidden;
+width:95px;
+}
+
+#chromemenu ul li a img { border : none;}
+
+.chromestyle ul, .chromestyle ul li a { padding : 0;}

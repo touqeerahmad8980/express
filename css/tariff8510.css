@@ -1,0 +1,67 @@
+div, p, h2, h3
+{
+margin : 0;
+padding : 0;
+}
+
+#tariffContainer
+{
+width : 978px;
+float : left;
+margin : 15px 0;
+padding : 0;
+}
+
+#tariffContainer div
+{
+	float : left;
+	text-align : center;
+}
+
+#tariff_heading, #tariff_rateCard, #tariff_contact
+{
+	margin : 15px 0;
+}
+
+#tariff_heading
+{
+	color : #fff;
+	background-color : #444;
+	width : 100%;
+}
+
+#tariff_heading h3
+{
+margin : 10px 0;
+}
+
+#tariff_rateCard
+{
+	margin : 20px 0;
+	width : 100%;
+}
+
+#tariff_rateCard table
+{
+	background-color : #000;
+	width : 700px;
+	color : #444;
+}
+
+#tariff_rateCard table tr, #tariff_rateCard table th, #tariff_rateCard table td
+{
+background-color : #fff;
+}
+
+
+#tariff_rateCard table td span
+{
+	font-weight : bold;
+}
+
+div#tariff_contact
+{
+	margin-top : 10px;
+	text-align : left;
+	font-size : 14px;
+}

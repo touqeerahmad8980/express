@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif|Lora');
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none
+}
+
+header {
+    font-family: Arial, Helvetica, 'Lucida Grande', 'MS Sans Serif', sans-serif;
+    text-align: center;
+    background-color: #e3e3e3;
+}
+
+header nav {
+    border-bottom: #ececec 1px solid!important;
+    min-height: initial!important;
+}
+
+header .navbar-nav {
+    float: none;
+    margin: 0 auto;
+}
+
+header .navbar-nav li {
+    display: inline-block;
+    float: none;
+}
+
+header .navbar-nav li a {
+    color: #666;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px;
+}
+
+header .logo {
+    padding: 5px 0px;
+}
+
+header button {
+    margin: 0px!important;
+    padding-right: 0!important;
+}
+
+header button span {
+    font-size: 22px;
+    color: rgba(158, 158, 158, 0.81);
+}

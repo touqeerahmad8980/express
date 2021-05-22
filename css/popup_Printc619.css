@@ -1,0 +1,48 @@
+﻿/*  PopupWindow */
+
+body {
+	text-align: center;
+	min-width: 700px;
+}
+#container {
+  text-align: left;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  display:block;
+}
+
+#newsStory
+{
+	float : left;
+	margin : 10px;
+	text-align : center;
+}
+
+#newsStory div
+{
+	float : left;
+	width : 100%;
+	height : auto;
+	margin-top : 15px;
+}
+
+#newsStory div img#Image2
+{
+	margin : 0;
+	padding : 0;
+	height : 100%;
+}
+
+/* CSS for frontpage_bottom_leaderboard ad */
+.ad-loader,
+#newsStory div.ad-leaderboard-container,
+#newsStory div.ad-leaderboard-bottom-container,
+#newsStory div.ad-leaderboard,
+#newsStory div.ad-leaderboard-bottom
+{	
+	display : none !important;	
+}
+/* CSS for ad */
+/* ///////////////////////////////////////////////////// */
