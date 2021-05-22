@@ -61,7 +61,7 @@ a.boxclose {
 #contentpop
 {
 	width: 454px;  
-	background: #FFFFFF url(../images/popup.jpg) no-repeat;
+	background: #FFFFFF url(../Images/popup.jpg) no-repeat;
 	margin: 0 auto; 
 	font-size:14px;
 	text-align: left;
@@ -78,7 +78,7 @@ a.boxclose {
 	
 #popUpDiv {
 	position:absolute;
-	background:url(../images/popup.jpg) no-repeat;
+	background:url(../Images/popup.jpg) no-repeat;
 	width:454px;
 	height:315px;
 	z-index: 9002;
